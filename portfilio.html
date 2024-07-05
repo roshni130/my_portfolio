@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+
+<body>
+    <!--body-->
+    <header class="header">
+        <div class="container">
+            <img class="brand" src="./img/portfolio.jpeg" alt="">
+            <a href="#" class="logo">Roshni's Portfolio</a>
+        </div>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Roshni Kumari</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="  https://github.com/roshni130 "><i class='bx bxl-github'></i></a>
+                <a href="kumariroshniraj840@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.instagram.com/roshniraj582/"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/roshni-kumari-a09131278"><i
+                        class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <div class="btn-container">
+                <button class="btn1" onclick="window.open('img/Resume.pdf')">
+                    Download CV
+                </button>
+                <a href="#footer">
+                    <button class="btn2">
+                        Contact Info
+                    </button>
+                </a>
+
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./img/profile.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+        <div class="row">
+
+            <div class="image">
+                <img draggable="false" class="tilt" src="./img/about_me_photo.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">I'm Roshni Kumari</h3>
+                <span class="tag">Web Developer</span>
+
+                <p>I am a Web developer from Ranchi, Jharkhand, India.
+                I am an eager learner,Constantly striving to improve
+                my skill and stay ahead of the latest trends in software development</p>
+
+                <div class="box-container">
+                    <div class="box">
+                        <p><span> Email : </span> kumariroshniraj840@gmail.com</p>
+                        <p><span> Place : </span> Ranchi, Jharkhand, India - 834001</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+        <div class="container">
+            <div class="row" id="skillsContainer">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+
+        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img draggable="false" src="./img/BITS.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Master's in Computer Application (MCA)</h3>
+                    <p>Birla Institute of Technology, MESRA</p>
+                    <h4>2023-2025 | Pursuing - 7.25 SGPA</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img draggable="false" src="./img/Xavier'sImg.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bachelor's in Computer Application (BCA)</h3>
+                    <p>St Xavier's College Ranchi</p>
+                    <h4>2020-2023 | Completed - 7.03 SGPA</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Latest <span> Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./img/portfolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>A Portfolio Website to showcase my skills, experience, social media handles on my website.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/MCA_RecordMaintenance.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mca Record Maintenance App</h4>
+                    <p>App to store and Maintain Details of student </p>
+                    <a href="https://github.com/roshni130/MCA-Student-Record-Maintenance"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/Spotift_clone.png" alt="">                                  
+                <div class="portfolio-layer">
+                    <h4>Spotify Clone App</h4>
+                    <p>Music App for listen songs</p>
+                    <a href="https://github.com/roshni130/Spotify_Clone"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/Simon_say.png" alt="">                                  
+                <div class="portfolio-layer">
+                    <h4>Simon Says Game</h4>
+                    <p>Gaming website to play game</p>
+                    <a href="https://github.com/roshni130/Spotify_Clone"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/online_Quiz.png" alt="">                                 
+                <div class="portfolio-layer">
+                    <h4>Online Quiz Maker</h4>
+                    <p>To create and Take Quiz</p>
+                    <a href="https://github.com/roshni130/Spotify_Clone"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+        <div class="container">
+            <div class="content">
+                <div class="image-box">
+                    <img draggable="false" src="./img/contact1.png" alt="">
+                </div>
+                <form id="contact-form" action="https://formsubmit.co/roshraj594.com" method="POST">
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Email" id="email" placeholder="Email" required>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Phone" placeholder="Phone">
+                            <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Message" name="Message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                    </div>
+                    <div class="button-area">
+                        <button type="submit" value="submit">
+                            Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Roshni's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br />
+            </div>
+
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+                <p> <i class="fas fa-envelope"></i>kumariroshniraj840@gmail.com.com</p>
+                <p> <i class="fas fa-map-marker-alt"></i>Ranchi, Jharkhand, India-834001</p>
+                <div class="share">
+
+                    <a href="https://www.linkedin.com/in/roshni-kumari-a09131278"" class="fab fa-linkedin"
+                        aria-label="LinkedIn" target="_blank"></a>
+                    <a href=" https://github.com/roshni130" class="fab fa-github" aria-label="GitHub"
+                        target="_blank"></a>
+                    <a href="kumariroshniraj840@gmail.com" class="fas fa-envelope" aria-label="Mail"
+                        target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://github.com/roshni130">
+                Roshni Kumari</a></h1>
+    </section>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+   
+
+</body>
+
+</html>
